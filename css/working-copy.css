@@ -1,0 +1,161 @@
+/*-- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structural styling--*/
+
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section, header {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+/*----- IMAGES -----*/
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*-- Styling typography --*/
+
+
+
+h1, h2, .logo, blockquote {
+    color: #E46211;
+    font-family: 'Merriweather', serif;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.5
+}
+
+h1 {
+    font-size: 4.8rem;
+    margin: 2rem 0 1rem 0;
+    color: #333333;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3rem 0 1rem 0;
+}
+
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.75rem
+}
+
+cite {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #333333;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header p {
+    font-size: 1.3rem
+}
+
+/*-- Styling links --*/
+a {
+    color: #E46211;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(115, 133, 0);
+    border-bottom: 1px dotted;
+}
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #E46211;
+    padding: 2rem 0;
+    font-size: 0.8rem;}
+  
+  nav ul {
+    padding-right: 5rem;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+    
+  nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;}
+  
+  nav a:link {
+    color: #fff;}
+  
+  nav a:visited {
+    color: #fff;}
+  
+  nav a:hover {
+    border-bottom: none;
+    color: #000;
+    transition: all 0.3s ease-in-out; } 
+    
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 30vw;
+  }
+
+
+.list li {
+    margin: 1rem 0;
+    line-height: 1.5;
+    list-style: none;
+
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: #E46211;
+    color: #E46211;
+    border: 0 none;
+}
+
+footer {
+    background: #030307;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4rem 0 3rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0 9rem;
+}
