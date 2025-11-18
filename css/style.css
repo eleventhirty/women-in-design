@@ -1,0 +1,60 @@
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+}
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Merriweather", serif;
+    color: #743B09;
+}
+
+header h1 {
+    font-size: 7.451rem;
+    line-height: 1;
+     color: #AE821C;
+     margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.953rem;
+}
+header h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+    color: #333333;
+    font-style: oblique;
+    margin-bottom: 4rem;
+}
+
+p{
+    line-height: 1.6;
+}
+
+header p {
+    font-size: 1.562rem;
+    font-family: "Merriweather", serif;
+    color: #743B09;
+}
+blockquote{
+margin: 4rem 0 2rem 0;
+ }
+
+blockquote {
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 1.562rem;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+}
+
+footer {
+    text-align: center;
+}
