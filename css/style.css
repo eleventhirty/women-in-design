@@ -78,7 +78,21 @@ header p {
     font-family: 'Merriweather', serif;
 }
 
+.lined {
+  display: flex;
+  align-items: centre;
+  gap: 2rem;
+  
+}
 
+.lined::before,
+.lined::after {
+    margin-top: 1rem;
+  content: "";
+  flex: 1;
+  height: 10px;
+  background: #fff; /* Change to suit your design */
+}
 
 /*-- Stying links ---*/
 a {
